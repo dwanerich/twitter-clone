@@ -15,15 +15,11 @@ import {Button} from '@material-ui/core';
 
 import SidebarOption from './SidebarOption'
 
-import './Sidebar.css'
-
-
-
 
 const Sidebar = ()  => {
     return (
-        <>
-        <div className='sidebar'></div>
+        
+        <div className='sidebar'>
             {/* <h1>Sidebar Component</h1> */}
 
         <SidebarOption Icon={TwitterIcon} />
@@ -37,8 +33,8 @@ const Sidebar = ()  => {
         <SidebarOption Icon={PermIdentityIcon} text="Profile" />
         <SidebarOption Icon={MoreHorizIcon} text="More" />
 
-            <Button variant="outlined" className="sidebar_tweet" fullWidth>Tweet</Button>
-        </>
+        <Button variant="outlined" className="sidebar_tweet" fullWidth>Tweet</Button>
+        </div>
     )
 }
 
