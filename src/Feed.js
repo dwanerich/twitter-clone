@@ -1,33 +1,130 @@
 import React from 'react'
-import './Sidebar.css'
+import './Feed.css'
+import TweetBox from './TweetBox'
+
 
 function Feed() {
    
     return (
-<div className="sidebar">
-    <h2> Feed's Home</h2>
+        <>
 
-    <h1>Tweet Box</h1>
+        <div className="feed__header">
+            <h1> Home</h1>
+        </div>
+        <div className="feed">
 
-    <p>Tweets</p>
-    <p>Tweets</p>        
-    <p>Tweets</p>
-    <p>Tweets</p>
-    <p>Tweets</p>
+            <TweetBox />
+
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
+            <h2>This is a Tweet</h2>
 
 
-    {/* Header */}
-    {/* TweetBox */}
+            {/* Header */}
+            {/* TweetBox */}
 
 
-    {/* Post */}
-    {/* Post */}
-    {/* Post */}
-    {/* Post */}
-    {/* Post */}
-    {/* Post */}
-
-</div>
+            {/* Post */}
+            {/* Post */}
+            {/* Post */}
+            {/* Post */}
+            {/* Post */}
+            {/* Post */}
+    </div>
+    </>
     )
 }
 

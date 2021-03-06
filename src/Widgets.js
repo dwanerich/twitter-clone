@@ -1,8 +1,11 @@
 import React from 'react'
+import './Widgets.css'
 
 function Widgets() {
     return (
-        <h1>Widgets Component</h1>
+        <div className="widgets">
+                    <h1>Widgets Component</h1>
+        </div>
     )
 }
 

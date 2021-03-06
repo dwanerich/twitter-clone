@@ -15,27 +15,25 @@ function App() {
         {/* <h1>Twitter App Clone 🤖</h1>   */}
       <Grid container spacing={3}>
 
-      <Grid item xs={3}>
+          <Grid item xs={3}>
 
-       <Sidebar />
+              <Sidebar />
+            {/* Sidebar */}
 
-      </Grid>
+          </Grid>
 
-       {/* Sidebar */}
+          <Grid item xs={6}>
+            <Feed />
+            {/* Feed// */}
 
-      <Grid item xs={6}>
-       {/* Feed// */}
+          </Grid>
 
-      <Feed />
 
-      </Grid>
-
-        {/* Widgets */}
-
-      <Grid item xs={3}>
-
-        <Widgets />
-        </Grid>
+          <Grid item xs={3}>
+              <Widgets />
+              {/* Widgets */}
+          </Grid>
+      
       </Grid>
     </div>
   );

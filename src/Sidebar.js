@@ -21,8 +21,8 @@ const Sidebar = ()  => {
         
         <div className='sidebar'>
             {/* <h1>Sidebar Component</h1> */}
+        <TwitterIcon className="sidebar__twitterIcon" />
 
-        <SidebarOption Icon={TwitterIcon} />
         <SidebarOption Icon={HomeIcon} text="Home" />
         <SidebarOption Icon={SearchIcon} text="Explore" />
         <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
