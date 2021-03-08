@@ -5,7 +5,7 @@
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    padding: 50px 50px;
+    padding: 20px 20px;
 }
 
 .feed::-webkit-scrollbar {
@@ -18,7 +18,7 @@
     /* background-color: whitesmoke; */
     z-index: 100;
     border: 1px solid whitesmoke;
-    padding: 15px 20px;
+    padding-left: 30px;
 }
 
 .feed__header > h2 {

@@ -1,0 +1,10 @@
+.post__body {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+.post__description > img {
+    border-radius: 20px;
+}

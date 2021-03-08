@@ -5,7 +5,7 @@
 }
 
 .sidebarOption:hover{
-    background-color: whitesmoke;
+    background-color: rgb(217, 233, 241);
     border-radius: 30px;
     color: #1DA1F2;
     transition: color 100ms ease-out;

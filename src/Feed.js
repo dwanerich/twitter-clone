@@ -1,6 +1,7 @@
 import React from 'react'
 import './Feed.css'
 import TweetBox from './TweetBox'
+import Post from './Post'
 
 
 function Feed() {
@@ -15,114 +16,20 @@ function Feed() {
 
             <TweetBox />
 
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-            <h2>This is a Tweet</h2>
-
+            {/* <h2>This is a Tweet</h2> */}
 
             {/* Header */}
             {/* TweetBox */}
 
+            <Post />
 
             {/* Post */}
             {/* Post */}
             {/* Post */}
             {/* Post */}
             {/* Post */}
-            {/* Post */}
+
+            
     </div>
     </>
     )
