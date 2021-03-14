@@ -1,4 +1,4 @@
-.post__body {
+.post {
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid whitesmoke;
@@ -7,4 +7,10 @@
 
 .post__description > img {
     border-radius: 20px;
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
