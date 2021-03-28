@@ -15,5 +15,21 @@
 .widgets__input > input {
     border: none;
     background-color: whitesmoke;
+}
 
+.widgets__searchIcon {
+    color: gray;
+}
+
+.widgets__widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2 {
+    font-size: 18px;
+    font-weight: 800;
 }

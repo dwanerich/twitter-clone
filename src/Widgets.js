@@ -1,6 +1,5 @@
 import React from 'react'
 import './Widgets.css'
-// import { Timeline, Share, TWeet } from 'react-twitter-widgets'
 import { Tweet, Timeline, Share } from 'react-twitter-widgets'
 
 import SearchIcon from "@material-ui/icons/Search";
@@ -14,7 +13,7 @@ function Widgets() {
             </div>
 
             <div className="widgets__widgetContainer">
-                <h2>The latest</h2>
+                <h2>What's happening</h2>
 
                 <Tweet tweetId="1367202325744525322" />
                 <Timeline

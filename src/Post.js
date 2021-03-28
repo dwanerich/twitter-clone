@@ -31,7 +31,7 @@ function Post({
                         </span> 
                     </h3>
                     <div className="post__description">
-                        <p>Jack'd Twitter today for all it's components & everything else underneath it's hood.</p>
+                        <p>Jack'd Twitter today for all it's components & everything else underneath it's hood...</p>
                         <img src="https://media3.giphy.com/media/Pjl4DxTIeFdBsxJuFr/giphy.gif"
                         alt=""/>
                     </div>
