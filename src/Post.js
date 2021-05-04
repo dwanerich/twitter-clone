@@ -17,22 +17,22 @@ function Post({
     }) {
     return <div className="post">
         <div className="post__avatar">
-            <Avatar src="https://pbs.twimg.com/media/D-p1E03XUAAsDoa?format=jpg&name=small" />
+            <Avatar src={avatar} />
         </div>
 
         <div className="post__body">
             <div className="post__header">
                 <div className="post__headerText">
                     <h3>
-                        Dwane Richards{" "}
+                        {displayName}{" "}
                         <span className="post__headerSpecial">
-                            <VerifiedUserIcon className="post__badge" />
-                            @rubyonrichie • 10m
+                            {verified && <VerifiedUserIcon className="post__badge" />}
+                            @{username} • 10m
                         </span> 
                     </h3>
                     <div className="post__description">
-                        <p>Jack'd Twitter today for all it's components & everything else underneath it's hood...</p>
-                        <img src="https://media3.giphy.com/media/Pjl4DxTIeFdBsxJuFr/giphy.gif"
+                        <p>{text}</p>
+                        <img src={image}
                         alt=""/>
                     </div>
 
