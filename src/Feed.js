@@ -23,19 +23,17 @@ function Feed() {
 
             <TweetBox />
 
+            {posts.map(post => (
             <Post
-            displayName="Dwane Richards"
-            username="dwanerich"
-            verified={true}
-            text="Jack'd Twitter today for all it's components & everything else underneath the hood : )"
-            avatar="https://media-exp1.licdn.com/dms/image/C4E03AQGL_NivPWSPiQ/profile-displayphoto-shrink_800_800/0/1617505553301?e=1625702400&v=beta&t=ToKaWMp0ok842ePro-gFEXPU5Nl7SnpiKtHnH5Y8SvE"
-            image="https://media3.giphy.com/media/Pjl4DxTIeFdBsxJuFr/giphy.gif"
+            displayName={post.displayName}
+            username={post.username}
+            verified={post.verified}
+            text={post.text}
+            avatar={post.avatar}
+            image={post.image}
             />
+            ))}
 
-
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
             {/* Post */}
             {/* Post */}
 
